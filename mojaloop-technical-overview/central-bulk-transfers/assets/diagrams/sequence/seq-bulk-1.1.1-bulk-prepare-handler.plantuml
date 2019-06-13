@@ -433,8 +433,8 @@ group Bulk Prepare Handler Consume
                         event: {
                             id: <uuid>,
                             responseTo: <previous.uuid>,
-                            type: bulk-prepare,
-                            action: prepare,
+                            type: prepare,
+                            action: bulk-prepare,
                             createdAt: <timestamp>,
                             state: {
                                 status: "success",
